@@ -1,0 +1,61 @@
+.container {
+    margin: auto;
+    max-width: 900px;
+    background-color: rgba(0, 5, 2, 0.623);
+   
+  }
+  .statistics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  }
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+  
+  
+    font-size: 50px;
+  
+  }
+  
+  .group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  
+  
+  }
+  .list {
+  
+    background-color: rgba(21, 133, 71, 0.623);
+    border: solid 1px;
+   
+  
+    font-size: 20px;
+    padding: 5px;
+    width: 100px;
+  
+   
+    margin: 10px;
+    cursor: pointer;
+  }
+  .list:hover,
+  .list:focus {
+    background-color: rgba(79, 195, 211, 0.5);
+  }
+  
+  .text {
+  
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .statistic {
+  
+    font-size: 20px;
+  
+  }
